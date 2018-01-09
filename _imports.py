@@ -496,7 +496,6 @@ def data2sents(sets,look_scope,lang):
 
                     sents.append(sent)
                     tag_sents.append(tag_sent)
-                    print tag_sents
                     ys.append(y)
                     cues_one_hot.append(cue_one_hot)
                     scopes_one_hot.append(scope_one_hot)
